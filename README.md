@@ -18,7 +18,7 @@ From your master branch (`git branch`) in `bewd_sf_13` directory, pull from upst
 
 | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 | ------ | ------ | ------- | --------- | -------- | ------ | -------- |
-| Kisha <br> 11-1pm | Nicole TBD | - |  | - |  | - |
+| Kisha <br> 11:30-1pm | Nicole 5:30 - 6:30pm | - | Nicole 5:30 - 6:30pm | - |  | - |
 
 <!-- #####Office hours sign-up sheet
 You can [sign-up for office hours here](https://docs.google.com/spreadsheets/d/1gb9rCmwyYv3L8d7C5t7JNNIcUto5KmQM1IEuJHU4fGo/edit#gid=5).  Please let us know when you're coming. -->
