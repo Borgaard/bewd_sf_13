@@ -30,13 +30,13 @@ Note: these are optional resources and **not** homework, but are helpful and rel
 | Resource | Notes |
 | -------- | ----------- |
 | [ohmyzsh](http://ohmyz.sh/) | **Highly recommended:** Terminal wrapper for iTerm. Gives you visual cues for where you are (no more `pwd`!), branches, git tracking, etc.<br> Quick install:<br> Paste this command anywhere in iTerm:<br> `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` |
+| [Airbnb Ruby Styleguide](https://github.com/airbnb/ruby) | Airbnb's style guide provides best practices for Ruby syntax. |
 | [learn X in Y minutes](https://learnxinyminutes.com/docs/ruby/) | Quick reference guide for Ruby syntax. |
 | [Ruby Methods Daily](https://github.com/fab/ruby-methods-daily) | Receive 3 random Ruby methods and examples of how they work to your inbox each day.  |
 | [Ruby Rogues](https://devchat.tv/ruby-rogues/) | Weekly podcasts about programming. Discussions cover parts of the Ruby ecosystem, gems (libraries) as well as programming practices, tools, and careers. |
 | [Git Kitchen](http://blog.flatironschool.com/git-kitchen-with-chef-ramsay/) | Chef Ramsay shows you how to ~~_git out of his kitchen_~~ use git in a loud, angry British accent. |
 | [Three things I learned about Ruby from Sandi Metz](https://medium.com/misc-misc/review-sandi-metz-s-poodr-ch-1-4-wip-d4daac417665#.jp0u1ako6) | Blog post about best practices with Ruby classes. |
 | [Ruby Warrior](https://github.com/ryanb/ruby-warrior) | Terminal game:<br> You play as a warrior climbing a tall tower to reach the precious Ruby at the top level. On each floor you need to write a Ruby script to instruct the warrior to battle enemies, rescue captives, and reach the stairs. You have some idea of what each floor contains, but you never know for certain what will happen. You must give the Warrior enough artificial intelligence up-front to find his own way. |
-|          | - |
 |          | - |
 |          | - |
 |          | - |
