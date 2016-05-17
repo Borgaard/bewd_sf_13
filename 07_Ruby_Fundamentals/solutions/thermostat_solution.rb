@@ -1,20 +1,21 @@
 require 'pry'
 
 class Thermostat
-  attr_accessor :degrees
+  #creates getter && setter methods for each attribute
+  attr_accessor :current_temp
   attr_reader :target
 
   def initialize(temp, target)
-    @degrees = temp
+    @current_temp = temp
     @target = target
   end
 
  #self.target , @target and target are all the same inside of this instance method
   def calibrate_temp
-    if degrees > target #this the same as #@degrees
-      puts "It's #{degrees}That's too hot! Turn on the air conditioner"
-    elsif @degrees < @target
-      puts "Brr!!! It's #{degrees}. It's too cold. Turn on the heat"
+    if current_temp > target #this the same as #@current_temp
+      turn_off_heat
+    elsif @current_temp < @target
+      turn_on_heat
     else
       puts "ahhh! Just right"
     end
@@ -25,6 +26,14 @@ class Thermostat
       reading = Thermostat.new(temp, target_temp)
       reading.calibrate_temp
     end
+  end
+
+  def turn_off_heat
+    puts "It's #{current_temp}That's too hot! Turn on the air conditioner"
+  end
+
+  def turn_on_heat
+    puts "Brr!!! It's #{current_temp}. It's too cold. Turn on the heat"
   end
 end
 
