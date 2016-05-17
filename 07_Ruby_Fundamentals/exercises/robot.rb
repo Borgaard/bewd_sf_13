@@ -11,9 +11,9 @@ class Robot
   attr_accessor :name, :type, :origin
 
  #instance_factory to support creating a new robot using Robot.new
-  def initialize(name,origin,type="model_x")
+  def initialize(name,type, origin)
     @name = name
-    @type = nil
+    @type = type
     @origin = origin
   end
 
@@ -26,7 +26,6 @@ class Robot
 
   #instance methods can only be called by instances of a class
   def empathy
-    puts "I am #{name}. I have empathy."
   end
 
   #this is an instance method
