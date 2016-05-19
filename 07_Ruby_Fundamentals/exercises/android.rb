@@ -9,5 +9,9 @@ class Android < Robot
   #instance_factory to support creating a new person using Person.new
     def initialize(name,origin,type="android")
       #we will work through this in class
+<<<<<<< HEAD
     end 
+=======
+    end
+>>>>>>> 95cf740bdcdd9b268e3873a8bedec5a95f529e56
   end
