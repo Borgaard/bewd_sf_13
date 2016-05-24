@@ -1,7 +1,6 @@
 require 'mechanize'
 require 'csv'
 require 'pry-byebug'
-require_relative 'apartment'
 
 def scrape_connect
   Mechanize.new
@@ -9,12 +8,11 @@ end
 
 def search_results(form)
   page = form.submit
-  raw_results = page.search('p.row')
-  return raw_results
+  page.search('p.row') #results raw_results
 end
 
 def scrape_it(url,query_name,max_price,min_price)
-  scrape_connect.history_added = Proc.new { sleep 5.0} #prevents lock_out
+  scrape_connect.history_added = Proc.new { sleep 2.0}
 
   scrape_connect.get(url) do |search_page|
     form = search_page.form_with(id: 'searchform') do |search|
@@ -33,16 +31,15 @@ def parse_results(raw_results)
   results << ['Name', 'URL', 'Price', 'Neighborhood']
 
   raw_results.each do |result|
-    link = result.css('a')[1]
-
+    link = result.css('a')[1] #mechanize library 
     name = link.text.strip
     url = "http://sfbay.craigslist.org" + link.attributes["href"].value
     price = result.search('span.price').text
     neighborhood = result.search('span.pnr').text[3..-13]
 
     puts "This apartment is located in #{neighborhood}"
-    apartment = Apartment.new(name,url,price,neighborhood)
-    results << [apartment.name, apartment.url, apartment.price, apartment.neighborhood]
+
+    results << [name, url, price, neighborhood]
 
     create_csv(results)
   end
