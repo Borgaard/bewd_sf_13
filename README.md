@@ -37,7 +37,7 @@ Note: these are optional resources and **not** homework, but are helpful and rel
 | [Git Kitchen](http://blog.flatironschool.com/git-kitchen-with-chef-ramsay/) | Chef Ramsay shows you how to ~~_git out of his kitchen_~~ use git in a loud, angry British accent. |
 | [Three things I learned about Ruby from Sandi Metz](https://medium.com/misc-misc/review-sandi-metz-s-poodr-ch-1-4-wip-d4daac417665#.jp0u1ako6) | Blog post about best practices with Ruby classes. |
 | [Ruby Warrior](https://github.com/ryanb/ruby-warrior) | Terminal game:<br> You play as a warrior climbing a tall tower to reach the precious Ruby at the top level. On each floor you need to write a Ruby script to instruct the warrior to battle enemies, rescue captives, and reach the stairs. You have some idea of what each floor contains, but you never know for certain what will happen. You must give the Warrior enough artificial intelligence up-front to find his own way. |
-|          | - |
+| [Model: ActiveRecord](http://guides.rubyonrails.org/active_record_basics.html) | Model is the M in MVC :tada: :balloon:!! |
 |          | - |
 |          | - |
 | ...      | - |
