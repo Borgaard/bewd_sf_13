@@ -23,7 +23,7 @@ From your master branch (`git branch`) in `bewd_sf_13` directory, pull from upst
 <!-- #####Office hours sign-up sheet
 You can [sign-up for office hours here](https://docs.google.com/spreadsheets/d/1gb9rCmwyYv3L8d7C5t7JNNIcUto5KmQM1IEuJHU4fGo/edit#gid=5).  Please let us know when you're coming. -->
 
-###Bonus Resources
+**Bonus Resources**
 -------
 Note: these are optional resources and **not** homework, but are helpful and relevant if you wish to learn more. Peruse them at your leisure.
 
